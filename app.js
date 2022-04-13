@@ -22,7 +22,7 @@ const cameraStart = () => {
             cameraView.srcObject = stream;
         })
     .catch( (error) => {
-        console.error("Oops. Something is broken.", error);
+        console.error("Oops. Something is broken. See error details: ", error);
     });
 }
 
