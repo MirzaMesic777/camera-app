@@ -22,7 +22,7 @@ const cameraStart = () => {
         console.log( "Stream successful -> ", stream );
     })
     .catch( (error) => {
-        console.error( "Something is broken. See error details: ", error );
+        console.error( "Something is broken. See error details: ", JSON.stringify(error) );
         console.log( "Error ", error );
     });
 }
