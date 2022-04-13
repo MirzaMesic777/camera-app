@@ -15,14 +15,15 @@ const cameraTrigger = document.querySelector( "#camera--trigger" );
 // Access the device camera and stream to cameraView
 const cameraStart = () => {
 
-    navigator.mediaDevices
-        .getUserMedia( constraints )
-        .then( (stream) => {
-            track = stream.getTracks()[0];
-            cameraView.srcObject = stream;
-        })
+    navigator.mediaDevices.getUserMedia( constraints )
+    .then( (stream) => {
+        track = stream.getTracks()[ 0 ];
+        cameraView.srcObject = stream;
+        console.log( "Stream successful -> ", stream );
+    })
     .catch( (error) => {
-        console.error("Oops. Something is broken. See error details: ", error);
+        console.error( "Something is broken. See error details: ", error );
+        console.log( "Error ", error );
     });
 }
 
