@@ -1,4 +1,9 @@
-## Welcome to GitHub Pages
+## Camera App for camera access testing purposes
+
+Application is availabe at the following URL: https://mirzamesic777.github.io/camera-app/ 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 You can use the [editor on GitHub](https://github.com/MirzaMesic777/camera-app/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
