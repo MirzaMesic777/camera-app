@@ -6,7 +6,7 @@ https://mirzamesic777.github.io/camera-app/
 
 
 
-For fast development and seeing your code changes live ( playing around with possible potenital use case scenarios ) I would recommend locally serving the projects folder with the _liver-server_ which has enabled live reload feature by default.
+For fast development and seeing your code changes live ( playing around with possible potenital use case scenarios ) I would recommend locally serving the projects folder with the _live-server_ which has enabled live reload feature by default.
 
 
 It can be installed simply with 
