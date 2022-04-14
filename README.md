@@ -1,9 +1,21 @@
 ## Camera App for camera access testing purposes
 
-Application is publicly availabe at the following URL: https://mirzamesic777.github.io/camera-app/ 
+Application is publicly availabe at the following URL: 
 
-For fast development and seeing your code changes live ( playing around with use case scenarios ) I would recommend localy serving the projects folder with the _liver-server_ which has enabled live reload feature by default.
-It can be installed simply with `npm install -g live-server` and used e.g. `live-server --port=8081 .`
+https://mirzamesic777.github.io/camera-app/ 
+
+
+
+For fast development and seeing your code changes live ( playing around with possible potenital use case scenarios ) I would recommend locally serving the projects folder with the _liver-server_ which has enabled live reload feature by default.
+
+
+It can be installed simply with 
+
+`npm install -g live-server` 
+
+and used by running the command in the projects directory terminal, e.g. 
+
+`live-server --port=8081 .`
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
