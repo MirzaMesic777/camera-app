@@ -11,6 +11,7 @@ const cameraView = document.querySelector( "#camera--view" );
 const cameraOutput = document.querySelector( "#camera--output" );
 const cameraSensor = document.querySelector( "#camera--sensor" );
 const cameraTrigger = document.querySelector( "#camera--trigger" );
+const promptTrigger = document.querySelector( "#camera--enable" );
 
 // Access the device camera and stream to cameraView
 const cameraStart = () => {
@@ -37,6 +38,11 @@ cameraTrigger.onclick = () => {
     cameraOutput.src = cameraSensor.toDataURL( "image/webp" );
     cameraOutput.classList.add( "taken" );
 };
+
+promptTrigger.onclick = () => {
+    console.log( " invoke prompt AGORA " );
+    cameraStart();
+}
 
 // Start the video stream when the window loads
 window.addEventListener( "load", cameraStart, false );
